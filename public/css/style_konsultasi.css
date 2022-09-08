@@ -1,0 +1,184 @@
+.row {
+    display: flex;
+    padding: 35px;
+    text-align: center;
+  }
+  
+  .header-time{
+    padding: 10px;
+  }
+  .header-desc{
+    padding: 20px;
+    text-align: left;
+  }
+
+  .column {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .table-desc{
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  #tableHeader td{
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .header{
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .headerTime{
+    padding: 20px;
+    padding-bottom: 10px;
+  }
+
+  .headerTime h5{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .chooseTime{
+    text-align: start;
+    padding: 20px;
+    padding-top: 10px;
+  }
+
+  .chooseTime h5{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #tableTime td{
+    float: left;
+    width: 50%;
+  }
+  
+  #tableTime button{
+  background-color: white; 
+  color: #43B5FF;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  }
+  
+  #tableTime button:hover {
+    background-color: #43B5FF;
+    color: white;
+    transition: 0.7s;
+  }
+
+  #inputData{ 
+    padding:7px; 
+    font-weight:bold;
+    font-size: 16px;
+  }
+
+  input{
+    width: 80%; 
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(216, 216, 216, 0.41);
+    padding:7px;
+  }
+
+  textarea{
+    vertical-align: top;
+    border-radius: 10px;
+    border: 1px solid #1B6A19;
+    padding: 5px;
+  }
+
+  textarea[type=text]:focus{
+    border: 1px solid #1B6A19;
+  }
+
+  .headerInformation{
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 15px;
+  }
+
+  #buttonGarden{
+    background-color: white; 
+    color: #1B6A19;
+    border: 1px solid #1B6A19;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    margin-left: 0px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  #buttonGarden:hover {
+    background-color: #1B6A19;
+    color: white;
+    transition: 0.7s;
+  }
+
+  #noted{
+    padding:10px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .batal{
+    background-color:  rgba(216, 216, 216, 0.41); 
+    color: #1B6A19;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    margin-left: 0px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .batal:hover {
+    background-color: #1B6A19;
+    color: white;
+    transition: 0.7s;
+  }
+
+  .oke{
+    background-color:  rgba(216, 216, 216, 0.41); 
+    color: #1B6A19;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    margin-left: 0px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .oke:hover{
+    background-color: #1B6A19;
+    color: white;
+    transition: 0.7s;
+  }
